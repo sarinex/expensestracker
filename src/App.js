@@ -1,4 +1,4 @@
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
 function App() {
   //Expenses Dummy Data
@@ -23,6 +23,7 @@ function App() {
       date: new Date(2021, 5, 12),
     },
   ];
+  // END Expenses Dummy Data
 
   return (
     <div>
